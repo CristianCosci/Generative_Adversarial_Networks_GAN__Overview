@@ -8,8 +8,10 @@
 
 ### **Project start**
 - [x] Start to implement my own project
-- [ ] GAN implementation
-    - [ ] setup notebook and .py file
+- [x] GAN implementation
+    - [x] setup notebook and .py file
+- [] cGAN implementation
+    - [] setup notebook and .py file
 - [ ] try other models
 - [ ] Try to change dataset
 - [ ] Learn info about training

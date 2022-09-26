@@ -35,7 +35,7 @@ def get_sample_images(G, num_samples):
 num_samples = 100
 # D = Discriminator().to(DEVICE) is not actually neede
 G = Generator().to(DEVICE)
-G.load_state_dict(torch.load('trained_model/G_epoch_199.pth',  map_location=torch.device('cpu')), strict=False)
+G.load_state_dict(torch.load('trained_model/Generator.pth',  map_location=torch.device('cpu')), strict=False)
 print(G.eval())
 
 # generation to image
