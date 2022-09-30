@@ -39,6 +39,6 @@ G.load_state_dict(torch.load('trained_model/Generator.pth',  map_location=torch.
 print(G.eval())
 
 # generation to image
-plt.figure(figsize=(10,10)) 
+plt.figure(figsize=(7, 4)) 
 plt.imshow(get_sample_images(G, num_samples), cmap='gray')
 plt.show()

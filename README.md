@@ -2,3 +2,5 @@
 ![wip gif](/imgs/wip.gif)
 
 ![wip gif](/imgs/GAN_training_improvements.gif)
+
+![wip gif](/imgs/cGAN_training_improvements.gif)
