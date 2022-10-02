@@ -10,16 +10,20 @@
 - [x] Start to implement my own project
 - [x] GAN implementation
     - [x] setup notebook and .py file
-- [] cGAN implementation
+- [x] cGAN implementation
+    - [x] setup notebook and .py file
+- [x] DCGAN implementation
+    - [x] setup notebook and .py file
+- [] cDCGAN implementation
     - [] setup notebook and .py file
 - [ ] try other models
-- [ ] Try to change dataset
-- [ ] Learn info about training
-- [ ] next task as to be written later
+- [x] Try to change dataset
+- [x] Learn info about training
 
 ### **Report task**
 - [x] Initialize latex documentation
-- [ ] Initialize readme?
+- [x] Initialize readme
+- [ ] complete readme
 
 ### **Other**
 - I think that i need to implement training in notebook and then write some app that use the weights and create image by promt
