@@ -1,7 +1,7 @@
 # **Generative Adversarial Networks (GAN)**
 
 ## **Index**
-1. [What you will see](#what-you-will-see-in-this-project-emoji)
+1. [What you will see](#what-you-will-see-in-this-project-revolvinghearts)
 2. [GANs Overview](#gans-overview)
     - [Generator](#generator)
     - [Discriminator](#discriminator)
@@ -14,7 +14,7 @@
 
 <hr>
 
-## **What you will see in this project** emoji
+## **What you will see in this project** :revolving_hearts:
 <table align='center'>
     <tr align='center'>
     <td> Vanilla GAN</td>
@@ -57,7 +57,6 @@ of training set.
 
 <br>
 <br>
-<br>
 
 ## **Generator**
 Generator is a Neural Network, which given a dataset $X_{real}$ tries to capture his distribution, by producing images $X_{fake}$ from noise Z as input. Noise input is a random set of values, usually sampled from a multivariate-gaussian distribution. This is often called latent vector and that vector space is called **latent space**. The GAN’s Generator acts quite like the decoder component of VAE: it project latent space to an image. The difference is that the Generator’s latent space is not forced to learn exactly a Gaussian distribution but it can learn and model more complex distribution.
@@ -66,7 +65,6 @@ Generator is a Neural Network, which given a dataset $X_{real}$ tries to capture
 <img src="imgs/img3.png" alt="GAN" width="70%" />
 </center>
 
-<br>
 <br>
 <br>
 
@@ -80,12 +78,10 @@ The principal scope of the Discriminator is to give a feedback to the Generator 
 
 <br>
 <br>
-<br>
 
 ### **More Information about GAN**
 To learn more about Training Phase and everythings else (also mathematical formula :dizzy_face:) you can read the `report.pdf` attacched in `report` directory.
 
-<br>
 <br>
 
 # **GAN's variant**
@@ -102,7 +98,7 @@ Simon Osindero](https://arxiv.org/abs/1411.1784). To understand the cGAN mechani
 
 As you can see in the Figure, the Conditional GAN structure introduce an external information (all the other components is exactly the same as original GAN). This information could be a class label and is used to condition the model during the
 training so that is possible to condition both the generation phase.
-<br>
+
 <br>
 <br>
 
@@ -121,10 +117,8 @@ of upsample the images.
 <br>
 
 ## **cDCGAN**
-Conditional Deep Convolutional GAN is a conditional GAN that use the same con-
-volution layers as DCGAN that is described previously. cDCGAN generate more
-realistic images than cGAN thanks to convolutional layers and in the next Chapter
-some examples will be presented.
+Conditional Deep Convolutional GAN is a conditional GAN that use the same con volution layers as DCGAN that is described previously. cDCGAN generate more realistic images than cGAN thanks to convolutional layers.
+
 <br>
 <br>
 
@@ -170,7 +164,7 @@ python3.10 DCGAN.py
     cd DCGAN
     python3.10 DCGAN.py
     ```
-6. ***Enjoy** emoji
+6. ***Enjoy** :ghost:
 
 <hr>
 
