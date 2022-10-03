@@ -16,7 +16,6 @@
     - [x] setup notebook and .py file
 - [] cDCGAN implementation
     - [] setup notebook and .py file
-- [ ] try other models
 - [x] Try to change dataset
 - [x] Learn info about training
 
@@ -24,7 +23,5 @@
 - [x] Initialize latex documentation
 - [x] Initialize readme
 - [ ] complete readme
-
-### **Other**
-- I think that i need to implement training in notebook and then write some app that use the weights and create image by promt
-- Make gif for readme
+    - [ ] unimore logo
+    - [ ] correct and to better readme

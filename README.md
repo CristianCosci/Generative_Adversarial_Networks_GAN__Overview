@@ -37,6 +37,8 @@
     </tr>
 </table>
 
+<hr>
+
 # **GANs Overview**
 Generative Adversarial Netorks were originally introduced by 
 [Goodfellow et al.](https://arxiv.org/abs/1406.2661) in 2014. He introduced GAN as a new framework for estimating generative models
@@ -85,7 +87,6 @@ To learn more about Training Phase and everythings else (also mathematical formu
 
 <br>
 <br>
-<br>
 
 # **GAN's variant**
 ## **cGAN**
@@ -116,7 +117,6 @@ of upsample the images.
 <img src="imgs/img4.png" alt="GAN" width="70%" />
 </center>
 
-<br>
 <br>
 <br>
 
