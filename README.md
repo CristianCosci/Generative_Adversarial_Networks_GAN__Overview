@@ -1,20 +1,19 @@
 # **Generative Adversarial Networks (GAN)**
 
 ## **Index**
-1. [What you will see](#what-you-will-see-in-this-project-revolvinghearts)
-2. [GANs Overview](#gans-overview)
+1. [GANs Overview](#gans-overview)
     - [Generator](#generator)
     - [Discriminator](#discriminator)
     - [Other GAN's variant](#gans-variant)
         - [cGAN](#cgan)
         - [DCGAN](#dcgan)
         - [cDCGAN](#cdcgan)
-3. [Implementation and code description](#implementation)
-4. [Installation and env preparation](#installation-and-virtual-environment-preparation)
+2. [Implementation and code description](#implementation)
+3. [Installation and env preparation](#installation-and-virtual-environment-preparation)
 
 <hr>
 
-## **What you will see in this project** :revolving_hearts:
+## **What you will see in this project** :fire: :see_no_evil:
 <table align='center'>
     <tr align='center'>
     <td> Vanilla GAN</td>
