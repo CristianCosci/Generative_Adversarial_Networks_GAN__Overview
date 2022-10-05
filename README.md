@@ -114,15 +114,17 @@ Conditional Deep Convolutional GAN is a conditional GAN that use the same con vo
 <hr>
 
 # **Implementation**
-After the brief introduction on GANs (i recommend you to read the report for more and thorough explainations), i will describe the implementations of all the described model. In this repository i will give you four implementations of GANs:
-- Vanilla Gan
-- Conditional GAN
-- Deep Convolutional GAN
-- Conditional Deep Convolutional GAN
+After the brief introduction on GANs (i recommend you to read the report for more and thorough explainations), i will describe the implementations of all the described model. In this repository i give to you four implementations of GANs:
+- ***Vanilla Gan***
+- ***Conditional GAN***
+- ***Deep Convolutional GAN***
+- ***Conditional Deep Convolutional GAN***
 
-As you can see in the main directory, there is a sub-directory for each model. In that directory there is the notebook (in which you can see the training phase and all the other operation to have a working GAN made by yourself) and also the `.py` files. In the `.py` files you can see a class for Discriminator, a class for the Generator and also a main file called with the name of the model. These `.py` file is made for give to you the possibility to execute and generate some samples from the GAN's Generator in your personal machine locally. The **main** file simply load the trained model of the Generator and produce some samples to you, in order to see the power of these trained models.
+As you can see in the main directory, there is a sub-directory for each model. In that directory there is a notebook (in which you can see the training phase and all the other operations to have a working GAN made by yourself) and also the `.py` files. <br> 
+In the `.py` files you have a file for Discriminator's class, a file for the Generator's class and also a `main` file called with the name of the model. These `.py` file is made for give to you the possibility to execute and generate some samples from the GAN's Generator in your personal machine locally. <br>
+The `main` file simply load the trained model of the Generator (that is saved in `trained_model` directory) and produce some samples to you, in order to see the power of these trained models.
 
-You don't have to do anything for make it function, you have just to start the main file, for example:
+You don't have to do anything for make it function, **you have just to start the main file**, for example:
 
 ```shell 
 python3.10 DCGAN.py
@@ -153,7 +155,7 @@ python3.10 DCGAN.py
     cd DCGAN
     python3.10 DCGAN.py
     ```
-6. ***Enjoy** :ghost:
+6. ***Enjoy*** :ghost:
 
 <hr>
 
