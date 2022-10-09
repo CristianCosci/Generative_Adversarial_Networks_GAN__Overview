@@ -32,7 +32,7 @@
     </tr>
     <tr>
     <td><img src = 'imgs/DCGAN_training_improvements.gif'>
-    <td><img src = 'imgs/DCGAN_training_improvements.gif'>
+    <td><img src = 'imgs/cDCGAN_training_improvements.gif'>
     </tr>
 </table>
 
