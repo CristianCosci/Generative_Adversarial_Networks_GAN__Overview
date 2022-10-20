@@ -53,14 +53,12 @@ of training set.
 <img src="imgs/img1.png" alt="GAN" width="70%" />
 
 <br>
-<br>
 
 ## **Generator**
 Generator is a Neural Network, which given a dataset $X_{real}$ tries to capture his distribution, by producing images $X_{fake}$ from noise Z as input. Noise input is a random set of values, usually sampled from a multivariate-gaussian distribution. This is often called latent vector and that vector space is called **latent space**. The GAN’s Generator acts quite like the decoder component of VAE: it project latent space to an image. The difference is that the Generator’s latent space is not forced to learn exactly a Gaussian distribution but it can learn and model more complex distribution.
 
 <img src="imgs/img3.png" alt="GAN" width="70%" />
 
-<br>
 <br>
 
 ## **Discriminator**
@@ -69,7 +67,6 @@ The principal scope of the Discriminator is to give a feedback to the Generator 
 
 <img src="imgs/img3.png" alt="GAN" width="70%" />
 
-<br>
 <br>
 
 ### **More Information about GAN**
@@ -91,7 +88,6 @@ As you can see in the Figure, the Conditional GAN structure introduce an externa
 training so that is possible to condition both the generation phase.
 
 <br>
-<br>
 
 ## **DCGAN**
 Deep Convolutional Generative Adversarial Network, also know as DCGAN is a particular and new GAN’s architecture that improve his quality using convolutional
@@ -103,12 +99,10 @@ of upsample the images.
 <img src="imgs/img4.png" alt="GAN" width="70%" />
 
 <br>
-<br>
 
 ## **cDCGAN**
 Conditional Deep Convolutional GAN is a conditional GAN that use the same con volution layers as DCGAN that is described previously. cDCGAN generate more realistic images than cGAN thanks to convolutional layers.
 
-<br>
 <br>
 
 <hr>
