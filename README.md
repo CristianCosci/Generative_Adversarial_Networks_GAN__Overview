@@ -149,7 +149,7 @@ python3.10 DCGAN.py
     cd DCGAN
     python3.10 DCGAN.py
     ```
-6. ***Enjoy*** :ghost:
+6. ***Enjoy*** 🐷:
 
 <hr>
 
